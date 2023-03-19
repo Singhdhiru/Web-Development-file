@@ -1,0 +1,82 @@
+<!-- this code is help to how to design form in HTML -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Form</title>
+    <!-- external css add in Html -->
+    <link rel="stylesheet" href="Form1.css" />
+  </head>
+  <body>
+    <h3 align="center">Registration Form</h3>
+    <form action="./action.php">
+      <lable for="101">
+        First Name:
+        <input type="text" placeholder="first name" />
+      </lable>
+      <br /><br />
+      <lable for="102">
+        middle Name:
+        <input type="text" placeholder="middle name" />
+      </lable>
+      <br /><br />
+      <lable for="103">
+        last Name:
+        <input type="text" placeholder="last name" />
+      </lable>
+      <br /><br />
+      <lable for="104">
+        Email or Phone:<br />
+        <input type="text" placeholder="email or Phone" />
+      </lable>
+      <br /><br />
+      <lable for="105">
+        Password:<br />
+        <input type="password" placeholder="Password" />
+      </lable>
+      <br /><br />
+      <lable for="106">
+        Gender:
+        <input type="radio" value="male" name="class" />Male
+        <input type="radio" value="female" name="class" />female
+        <input type="radio" value="other" name="class" />other
+      </lable>
+      <br />
+      <br />
+      <label for="107">
+        City:
+        <select name="city">
+          <option value="Delhi">Delhi</option>
+          <option value="Bhopal">bhopal</option>
+          <option value="patna">patna</option>
+          <option value="Bangluru">Bangluru</option>
+        </select>
+      </label>
+      <br /><br />
+      <label for="hobby">Select hobby:</label>
+      <input
+        type="checkbox"
+        value="newspaperreading"
+        name="Hobby"
+        id="108"
+      />newspaperper readi
+      <input type="checkbox" value="singing" name="Hobby" id="109" />singing
+      <br />
+      <label for="feedback">Feedback:</label>
+      <br />
+      <textarea
+        name="feedback"
+        id="feedback"
+        placeholders="Please add Feedback"
+        rows="7"
+      >
+      </textarea>
+      <br /><br />
+      <label for="submit">
+        <input type="submit" value="submit" />
+      </label>
+    </form>
+  </body>
+</html>

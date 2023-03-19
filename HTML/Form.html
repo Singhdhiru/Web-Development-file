@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color:rgb(233, 232, 222);">
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+       <h3 align="center">Registration Form</h3>
+       <!-- Forms are used to collect data from the user -->
+       <!-- Action attribute is used to define what action needs to be
+        performed when a form is submitted -->
+       <form action="/action.php">
+        First Name:
+        <input type="text" placeholder="FirstName" />
+        <br />
+        <br />
+        Middle Name:
+        <input type="text" placeholder="MiddleName" />
+        <br />
+        <br />
+        Last Name:
+        <input type="text" placeholder="LastName" />
+        <br />
+        <br />
+        <div>  
+            <label for="100">   
+            Gender :     
+            <input type="radio" id="100" value="Male" name="100" checked > Male   
+            <input type="radio" id="100" value="Female" name="100"> Female   
+            <input type="radio" id="100" value="Other" name="100"> Other  
+            </label>
+        </div>  
+        <br>
+        <br>  
+        Email::
+        <input type="text" placeholder="Email" />
+        <br />
+        <br />
+        Password:
+        <input type="text" placeholder="LastName" />
+        <br />
+        <br />
+        <h5>Select your class</h5>
+        <label for="101">
+           <input type="radio" value="class XI" name="class" id="101" />class XI
+        </label>
+        <br>
+        <br>
+        <label for="102">
+            <input type="radio" value="class XII" name="class" id="102" />class XII
+        </label>
+        <br>
+        <br>
+
+
+       </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

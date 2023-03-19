@@ -1,0 +1,25 @@
+body{
+    /* background image */
+    /* background-image: url("dhiraj.jpg");  */
+    /* background position property */
+    /* background-position: left top; */
+    /* background size property */
+    /* background-size: contain;  ye x and y mai repeat kra dega*/
+    /* background-size: cover;  */
+    /* background-repeat: auto; ye image ko phaila dega */
+    /* background color */
+    background-color: rgb(255, 64, 0); 
+    /* background-color: rgba(243, 14, 14, 0.123); */
+    /* background shorthands */
+    /* background: url("Dk.jpg") no-repeat fixed right top; */
+    /* width: 100px;
+    height: 200px; */
+    /* .p{
+        border-color: background-blend-mode: ;
+        /* border-radius: 5x; */
+    /* better comment  */
+    
+
+    
+
+}

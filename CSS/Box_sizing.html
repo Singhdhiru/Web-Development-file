@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* in css by defalut -> exit content - box */
+            /* border-box se box ->1 & box->2 per padding ka asar nahi hoga ho ander hi maintain kar lege */
+            box-sizing: border-box;
+        }
+        .mainDiv{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .box1{
+            width: 300px;
+            height: 200px;
+            padding: 100px;
+            border: 4px solid black;
+            background-color: aqua;
+        }
+        .box2{
+            width: 300px;
+            height: 200px;
+            padding: 90px;
+            border: 4px solid black;
+            background-color: aqua;
+        }
+        .box3{
+            width: 300px;
+            height: 200px;
+            border: 4px solid black;
+            background-color: aqua;
+        }
+        .box4{
+            width: 300px;
+            height: 200px;
+            border: 4px solid black;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="box1">Box_1</div>
+        <div class="box2">Box_2</div>
+        <div class="box3">Box_3</div>
+        <div class="box4">Box_4</div>
+    </div>
+</body>
+</html>
